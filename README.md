@@ -9,7 +9,6 @@ The trained yolo v4 model runs detections on this image sequence and outputs the
 Once I know the people who are breaking the specified social distance threshold, I marked them through a red bounding box.
  
 Pedestrian Detection
-
 In surveillance system we have to select models with low computational power and high fps. We selected the following models:
 
 •	Single Shot Detector (SSD) Inception
@@ -29,6 +28,5 @@ The bottom centre coordinates of the bounding boxes are passed through the trans
  
 After getting the distances I obtain the ratio of the image by dividing any actual length with its length in converted image (bird’s eye view) and with the help of this ratio converted different distances and plotted a graph with these values. 
 
-Error in calculating the distance v/s the ground truth distance graph for the proposed two approaches
 So far no ideal tool for monitoring social distancing has been implemented and this project is a small step which was made to reach this goal. With advanced pedestrian detection models and using advance algorithm for distance estimation I am able to make an accurate social distance monitoring system that can be deployed on surveillance systems like UAVs and CCTVs.
 
