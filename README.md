@@ -4,7 +4,7 @@ In the fight against the corona virus, social distancing has proven to be an eff
 The main objective is to detect the real-time distance between any two pedestrians present in a video or image taken from overhead surveillance devices. 
 The major steps to be worked upon were Pedestrian Detection in the given image (frame of video) and Distance Calculation between the objects detected.
 
-The workflow of the model is it receives a video input from the surveillance system and converts this video input into image sequences.
+The workflow of the model is it receives a video input from the surveillance system and converts this video input into image sequences for further analysis.
 The trained yolo v4 model runs detections on this image sequence and outputs the bounding boxes coordinates which are then fed to a function which calculates the distances between all the detections and mark the people not following social distancing norm. 
 Once I know the people who are breaking the specified social distance threshold, I marked them through a red bounding box.
  
